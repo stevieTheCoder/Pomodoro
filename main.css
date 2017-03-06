@@ -1,0 +1,13 @@
+body{
+	background-color: black !important;
+	font-family: "Montserrat";
+	color: lightgreen !important;
+}
+
+h2{
+	display:inline;
+}
+
+#start{
+	margin:15px;
+}
