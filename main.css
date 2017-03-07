@@ -8,6 +8,6 @@ h2{
 	display:inline;
 }
 
-#start{
+#start, #reset, #stop{
 	margin:15px;
 }

@@ -17,30 +17,61 @@
 
 <body>
 
-<div class="text-center">
+	<div class="text-center">
 
-	<div>
-		<h1>Pomodoro Clock</h1>
+		<div>
+			<h1>Pomodoro Clock</h1>
+		</div>
+
+		<div id="timeDiv">
+
+			<div id="headers">
+				<div id="title1" class="col-xs-6 text-center">
+					<h3>Session</h3>
+				</div>
+				<div id="title1" class="col-xs-6 text-center">
+					<h3>Break</h3>
+				</div>
+			</div>
+
+			<div id="setTimes" class="container">
+				<div id="minS" class="col-xs-2 block-center text center minus">
+					<a href="#" class ="btn btn-success" id="minus5Clock">-</a>
+				</div>
+				<div id="timeS" class="col-xs-2 block-center text-center time">
+					<h2 id="num">25</h2>
+				</div>
+				<div id="plusS" class="col-xs-2 block-center text-center plus">
+					<a href="#" class ="btn btn-success" id="add5Clock">+</a>
+				</div>
+				<div id="minB" class="col-xs-2 block-center text-center minus">
+					<a href="#" class ="btn btn-success" id="minus5Break">-</a>
+				</div>
+				<div id="timeB" class="col-xs-2 block-center text-center time">
+					<h2 id="breakNum">5</h2>
+				</div>
+				<div id="plusB" class="col-xs-2 block-center text-center plus">
+					<a href="#" class ="btn btn-success" id="add5Break">+</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="f">
+
+			<div id="startW">
+				<a href="#" class="btn btn-success" id="start">Start</a>
+			</div>
+			<div id="startW">
+				<a href="#" class="btn btn-success" id="stop">Stop</a>
+			</div>
+			<div id="resetW">
+				<a href="#" class="btn btn-success" id="reset">Reset</a>
+			</div>
+
+		</div>
+
 	</div>
-
-	<div id="timeDiv">
-		<h1 id="title1">Session Time</h1>
-		<a href="#" class ="btn btn-success" id="minus5Clock">-</a>
-		<h2 id="num">25</h2>
-		<a href="#" class ="btn btn-success" id="add5Clock">+</a>
-		<a href="#" class ="btn btn-success" id="reset">Reset</a>
-	</div>
-
-	<div id="breakDiv">
-		<h1 id="title1">Break Time</h1>
-		<a href="#" class ="btn btn-success" id="minus5Break">-</a>
-		<h2 id="breakNum">5</h2>
-		<a href="#" class ="btn btn-success" id="add5Break">+</a>
-	</div>
-
-	<a href="#" class="btn btn-success" id="start">Start</a>
-
-</div>
 
   <script src="script.js"></script>
 </body>
